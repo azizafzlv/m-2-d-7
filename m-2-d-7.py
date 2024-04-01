@@ -61,4 +61,23 @@ lambda функцию тоже, но можно и без нее
 
 #5
 """
+Найти сумму квадратов чисел в списке, используя reduce
 """
+# from random import randint
+# from functools import reduce
+
+# numbers = [randint(1, 3) for x in range(1, 5)]
+# print(numbers)
+
+# result = reduce(lambda x, y: x + y**2, numbers)
+# print(result)
+
+#6
+"""
+Отфильтровать слова по длине. Только те строки,
+которые имеют длину больше 5 символов, используя filter
+"""
+
+strings = ['apple', 'banana', 'cherry', 'grape', 'watermelon']
+
+print(list(filter(lambda x: len(x) > 5, strings)))
