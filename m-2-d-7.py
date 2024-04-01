@@ -63,6 +63,7 @@ lambda функцию тоже, но можно и без нее
 """
 Найти сумму квадратов чисел в списке, используя reduce
 """
+
 # from random import randint
 # from functools import reduce
 
@@ -78,6 +79,32 @@ lambda функцию тоже, но можно и без нее
 которые имеют длину больше 5 символов, используя filter
 """
 
-strings = ['apple', 'banana', 'cherry', 'grape', 'watermelon']
+# strings = ['apple', 'banana', 'cherry', 'grape', 'watermelon']
 
-print(list(filter(lambda x: len(x) > 5, strings)))
+# print(list(filter(lambda x: len(x) > 5, strings)))
+
+#7
+"""
+Найти произведение элементов списка, use reduce
+"""
+
+# from random import randint
+# from functools import reduce
+
+# numbers = [randint(1, 10) for x in range(1, 5)]
+# print(numbers)
+# print(reduce(lambda x, y: x * y, numbers))
+
+#8
+"""
+Оставить только положительные числа в списке
+используя filter
+"""
+
+# from random import randint
+
+# numbers = [randint(-10, 10) for x in range(1, 10)]
+# print(numbers)
+
+# print(list(filter(lambda x: x > 0, numbers)))
+
