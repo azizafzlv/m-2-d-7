@@ -108,3 +108,33 @@ lambda функцию тоже, но можно и без нее
 
 # print(list(filter(lambda x: x > 0, numbers)))
 
+#9
+"""
+Пусть дан список чисел преобразовать каждое число
+в строку используя map
+"""
+
+# from random import randint
+
+# numbers = [randint(-10, 10) for x in range(1, 10)]
+# print(numbers)
+
+# print(list(map(lambda x: str(x), numbers)))
+
+#10
+"""
+Отфильтр те числа которые нах-ся в диапазоне от 10 до 20
+используя filter
+"""
+
+# from random import randint
+
+# numbers = [randint(1, 30) for x in range(1, 10)]
+# print(numbers)
+
+# print(list(filter(lambda x: 10 <= x < 20, numbers)))
+
+#11
+"""
+
+"""
