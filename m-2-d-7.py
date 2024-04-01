@@ -38,11 +38,27 @@ lambda функцию тоже, но можно и без нее
 только нечетные числа
 """
 
-from functools import reduce
+# from functools import reduce
 
-numbers = [34, 5, 23, 68, 56, 890, 123, 564]
+# numbers = [34, 5, 23, 68, 56, 890, 123, 564]
+# numbers = reduce(lambda x, y: x + y, filter(lambda x: x % 2 != 0, numbers))
 
-numbers = reduce(lambda x, y: x + y, filter(lambda x: x % 2 != 0, numbers))
+# print(numbers)
 
-print(numbers)
+#4
+"""
+Удвоение чисел в списке: пусть дан список чисел
+удвоить каждое число в списке, исп map
+"""
 
+# from random import randint
+
+# numbers = [randint(1, 101) for x in range(1, 20)]
+# print(numbers)
+
+# numbers = list(map(lambda x: x * 2, numbers))
+# print(numbers)
+
+#5
+"""
+"""
