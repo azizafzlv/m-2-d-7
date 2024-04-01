@@ -32,3 +32,17 @@ lambda функцию тоже, но можно и без нее
 
 # print(numbers)
 
+#3
+"""
+Вычислите сумму элементов списка, но перед этим отфильтровать
+только нечетные числа
+"""
+
+from functools import reduce
+
+numbers = [34, 5, 23, 68, 56, 890, 123, 564]
+
+numbers = reduce(lambda x, y: x + y, filter(lambda x: x % 2 != 0, numbers))
+
+print(numbers)
+
